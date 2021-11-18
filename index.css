@@ -1,0 +1,181 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 30px;
+}
+
+.brand {
+    font-size: larger;
+}
+
+.fa-lyft {
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: large;
+}
+
+.recent {
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+.underscore {
+    border-bottom: black;
+    border-style: solid;
+    border-width: 1px;
+    width: 80px;
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+}
+
+nav div a {
+    text-transform: uppercase;
+}
+
+#underscore {
+    border-bottom: black;
+    border-style: solid;
+    border-width: 1px;
+    width: 80px;
+    margin-right: 50px;
+}
+
+#link-latest {
+    color: aqua;
+    font-size: larger;
+    padding-right: 50px;
+}
+
+#link-man {
+    padding-right: 50px;
+}
+
+#link-woman {
+    padding-right: 50px;
+}
+
+#link-kids {
+    padding-right: 50px;
+}
+
+.fa-magnifying-glass {
+    height: 20px;
+    width: 20px;
+    padding-right: 50px;
+}
+
+.main {
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-first {
+    /* padding: 70px; */
+    width: 50%;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 400;
+    max-width: 500px;
+}
+
+.main-first-p {
+    font-size: 27px;
+    max-width: 400px;
+}
+
+.main-first-div {
+    background-color: cadetblue;
+    margin-top: 100px;
+    max-width: 500px;
+    color: white;
+}
+
+.main-first-div p {
+    padding: 20px;
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-first-div p img {
+    width: 100px;
+    height: 120px;
+}
+
+.more {
+    text-transform: uppercase;
+    color: white;
+    padding: 20px;
+}
+
+.main-second {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+}
+
+.explore {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: max-content;
+}
+
+.fa-angle-down {
+    padding-top: 30px;
+}
+
+.img-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.two-img {
+    display: flex;
+    flex-direction: column;
+}
+
+#image1 {
+    height: 250px;
+    width: 190px;
+    padding-bottom: 20px;
+}
+
+#image2 {
+    height: 250px;
+    width: 190px;
+}
+
+#image3 {
+    height: 400px;
+    padding: 50px 0px 50px 20px;
+}
+
+.icons {
+    padding-top: 50px;
+    align-self: flex-end;
+}
+
+.icons i {
+    padding-right: 30px;
+}
